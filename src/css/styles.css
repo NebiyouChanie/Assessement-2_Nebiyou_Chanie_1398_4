@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+   
+}
+ 
+header{
+    background-color: rgb(27, 25, 25);
+}
+
+ 
+header h1{
+    font-size: 60px;
+    color: purple;
+}
+header span{
+   color: rgb(0, 179, 255);
+}
+header p{
+    color:white;
+    letter-spacing: 2px;
+
+}
+
+li{
+    list-style: none;    
+}
+
+
+ 
+.nav-btn{
+    text-decoration: none;
+    color: white;
+    font-size:1.2rem ;
+    background-color:rgb(0, 179, 255);
+    border-radius: 10px;
+}
+.nav-btn:hover{
+    background-color: purple;
+}
+ 
+
+ 
+
+
+.single-component h2{
+    font-size: 32px;
+    color:rgb(131, 8, 111);
+
+}
+
+.single-component h4{
+    color:rgb(63, 63, 63);
+
+}
+
+.single-component p{
+    color: gray;
+
+}
+
+
+ aside h2{
+    color:rgb(131, 8, 111);
+ }
+
+ .aside-menu a{
+    color: rgb(56, 55, 55);
+ }
+ 
+ .aside-menu li{
+    color: rgb(56, 55, 55);
+ }
+
+ 
+.about-us h1{
+    color:rgb(131, 8, 111);  
+    
+}
+.about-us p{
+    color: gray;
+}
+ 
+.contact-us h1{
+    color:rgb(131, 8, 111);  
+}
+
+.contact-us p{
+    color:gray;  
+}
+
+
+
+form label {
+    color:gray;  
+}
+form input {
+    border-radius: 4px;
+}
+
+
+
+form button {
+   
+    background-color:rgb(131, 8, 111);  
+    color: white;
+    font-weight: 500;
+    border: 1px solid rgb(131, 8, 111);
+    border-radius: 4px;
+
+}
+
+form button:hover{
+    color:rgb(131, 8, 111);  
+    background-color: white;
+}
+
+ 
+footer{
+    background-color: rgb(20, 19, 19);
+}
+
+ 
+ 
+footer h3 {
+    color: white;
+    font-size: 32px;
+}
+
+footer p {
+    color: white;
+}
+
+ 
+footer  img{
+    border: 1px solid white;
+}
+ 
+.image-gallery p{
+color: white;
+font-size: 16px;
+}
+ 
+ 
+
+ 
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-link{
+    color: rgb(131, 8, 111);
+}
+
+.about-content a{
+    color: rgb(131, 8, 111);
+}
+.contact-ul {
+    color: white;
+   
+}
