@@ -2,11 +2,14 @@
 
 *{
 
-    text-decoration: none;
     font-family: 'poppins', sans-serif;
    
 }
  
+/* 
+header 
+*/
+
 header{
     background-color: rgb(27, 25, 25);
 }
@@ -29,7 +32,7 @@ li{
     list-style: none;    
 }
 
-
+/* nave */
  
 .nav-btn{
     text-decoration: none;
@@ -44,7 +47,7 @@ li{
  
 
  
-
+/* card */
 
 .single-component h2{
     font-size: 32px;
@@ -62,20 +65,32 @@ li{
 
 }
 
+/* aside */
 
  aside h2{
     color:rgb(131, 8, 111);
  }
 
- .aside-menu a{
+ .aside-menu-nav a{
     color: rgb(56, 55, 55);
+    text-decoration: none;
  }
  
  .aside-menu li{
     color: rgb(56, 55, 55);
+    margin-bottom: 16px;
  }
 
- 
+ .aside-menu p{
+    font-weight: 500;
+    color: rgb(56, 55, 55);
+ }
+
+ /* 
+ about page 
+ */
+
+
 .about-us h1{
     color:rgb(131, 8, 111);  
     
@@ -93,6 +108,7 @@ li{
 }
 
 
+/* form */
 
 form label {
     color:gray;  
@@ -118,7 +134,7 @@ form button:hover{
     background-color: white;
 }
 
- 
+ /* footer */
 footer{
     background-color: rgb(20, 19, 19);
 }
@@ -144,8 +160,6 @@ color: white;
 font-size: 16px;
 }
  
- 
-
  
 .footer-nav li a{
     text-decoration: none;
